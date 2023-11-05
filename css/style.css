@@ -6,3 +6,28 @@ body {
     background-color: #f1f1f1;
 }
 
+/* Step 3: Edit the css for the header tag (all instances) to use flex to match our example. */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Step 4: Edit the css for the nav_links class to use flex to match our example. Do not modify the list items or the links - modify the nav_links class to use flex. */
+
+.nav_links {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Step 6: Identify the proper selector to style ONLY those header elements that are direct children of a card class. */
+
+.card > header {
+    background-color: #288088;
+    border: 2px solid #45adad;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
